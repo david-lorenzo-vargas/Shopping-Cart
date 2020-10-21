@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shopping-list__item {
+  border: 2px solid lightblue;
+  padding: 0.5em;
+  margin: 0.5em;
+  background: lightcyan;
+  width: 380px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopping-list__item__name {
+  color: rgb(5, 78, 78);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.shopping-list__item__description {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: rgb(2, 102, 64);
+  border: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+
+.cart {
+  background-color: #ddd;
+  outline: 1px solid rgb(4, 48, 33);
+  outline-offset: -10px;
+  margin: 0.5em;
+  padding: 1.5em;
+  width: 380px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.cart__item {
+  color: rgb(4, 48, 33);
+}
+
+.cart__item__name {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cart__item__description {
+  font-size: 15px;
+  font-style: italic;
+  margin: 0.2em auto 0.6em;
+}
+
+.btn--remove {
+  background-color: rgb(162, 19, 19);
+  color: white;
+  border: none;
+  padding: 0.4em 1em;
+  cursor: pointer;
+}
+
+.btn--remove:hover {
+  background-color: rgba(66, 0, 0);
+}
+
+.btn:hover {
+  background: rgb(4, 48, 33);
+}
